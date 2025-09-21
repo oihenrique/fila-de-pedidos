@@ -1,0 +1,17 @@
+{
+  "name": "fila-de-pedidos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/http/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique Gomes",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
