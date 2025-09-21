@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/http/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:worker": "tsx watch src/worker/order-consumer.ts",
+    "start": "node dist/http/server.js",
+    "start:worker": "node dist/worker/order-consumer.js",
+    "build": "tsc -p tsconfig.json"
   },
   "author": "Henrique Gomes",
   "license": "ISC",
